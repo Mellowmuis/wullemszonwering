@@ -1,0 +1,68 @@
+.Footer {
+}
+
+.Footer a{
+	color: #025492;
+}
+
+.orange-text{
+	color: #f58a1a;
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.Socket{
+	text-align: center;
+}
+
+.footer-bg{
+	margin-top: 5px;
+	background: #ffffff;
+}
+
+.contact-space{
+	line-height: 30px;
+}
+
+.footer-bg h4{
+	font-size: 18px;
+}
+
+.menu-0{
+	width: 200px;
+}
+
+.logo-footer{
+	width: 75%;
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+.footer-contact{
+	padding-left: 20px;
+}
+
+@media all and (max-width: 700px) {
+  .footer-contact{
+	padding-left: 0px;
+  }
+
+  .Footer {
+  	text-align: center;
+  }
+
+}
