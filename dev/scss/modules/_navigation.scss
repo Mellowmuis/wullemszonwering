@@ -8,9 +8,9 @@
   .Navigation {
     @include clearfix;
     text-align: center;
-    padding-left: 15px;
-    width: 943px;
-    margin-left: auto;
+    
+    width: 1040px;
+    margin-left: 10px;
     margin-right: auto;
     @include background-image(linear-gradient(to top, #3f3f3f, #838383));
 

@@ -31,4 +31,35 @@ if(is_admin() && !$initialized){
 
 include_once('includes/antispam.php');
 
+add_action('init', 'cptui_register_my_cpt_actie');
+function cptui_register_my_cpt_actie() {
+register_post_type('actie', array(
+'label' => 'Acties',
+'description' => '',
+'public' => true,
+'show_ui' => true,
+'show_in_menu' => true,
+'capability_type' => 'post',
+'map_meta_cap' => true,
+'hierarchical' => false,
+'rewrite' => array('slug' => 'actie', 'with_front' => true),
+'query_var' => true,
+'supports' => array('title','editor','excerpt','trackbacks','custom-fields','comments','revisions','thumbnail','author','page-attributes','post-formats'),
+'labels' => array (
+  'name' => 'Acties',
+  'singular_name' => 'Actie',
+  'menu_name' => 'Acties',
+  'add_new' => 'Add Actie',
+  'add_new_item' => 'Add New Actie',
+  'edit' => 'Edit',
+  'edit_item' => 'Edit Actie',
+  'new_item' => 'New Actie',
+  'view' => 'View Actie',
+  'view_item' => 'View Actie',
+  'search_items' => 'Search Acties',
+  'not_found' => 'No Acties Found',
+  'not_found_in_trash' => 'No Acties Found in Trash',
+  'parent' => 'Parent Actie',
+)
+) ); }
 ?>

@@ -22,6 +22,10 @@ Template Name: Contactpage
 								<p>4538 AN  Terneuzen</p>
 								<p>Email: info@wullemszonwering.nl</p>
 								<p>Tel: 0115 630299</p>
+								<hr>
+								<p>ABN-Amro IBAN: NL91ABNA0612027503</p>
+								<p>KVK: 51932334</p>
+								<p>BTW: NL127159447B02</p>
 							</div>
 	
 						</div>					

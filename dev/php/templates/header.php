@@ -80,9 +80,11 @@
 			</a>
 		</div>
 
-        <div class="menu-white-bg">
+        
+        <div class="u-gridCol12 menu-white-bg">
 		  <?php include 'includes/navigation.php'; ?>
-		</div>
+        </div>
+		
 
 		<div class="Mob-contact-ico">
 			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0115630299">

@@ -55,7 +55,14 @@
 .footer-contact{
 	padding-left: 20px;
 }
-
+.widgettitle{
+	display:none;
+}
+.Socket{
+	h5{
+		margin-top: 15px;
+	}
+}
 @media all and (max-width: 700px) {
   .footer-contact{
 	padding-left: 0px;

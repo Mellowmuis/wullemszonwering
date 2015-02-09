@@ -7,6 +7,7 @@
 							Wullems Zonwering</br>
 							Haarmanweg 21A</br>
 							4538 AN Terneuzen</br>
+							Tel: 0115 630299
 						</p>
 					</div>
 
@@ -30,11 +31,7 @@
 					</div>
 
 					<div class="u-gridCol3">
-						<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
-						<div class="Footer-inner u-gridRow">
-							<?php dynamic_sidebar( 'footer-widgets' ); ?>
-						</div>
-						<?php endif; ?>
+						
 					</div>
 				</div>
 		</div>
@@ -44,8 +41,18 @@
 	<div class="Socket">
 		<div class="u-gridContainer">
 			<!-- Copyright info -->
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">Lokaal<span class="orange-text">Gevonden</span></a>
+			<div class="u-gridCol6">
+				<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
+				<a href="http://www.lokaalgevonden.nl" target="_blank">Lokaal<span class="orange-text">Gevonden</span></a>
+			</div>
+			<div class="u-gridCol2">
+				<h5>Sitemap:</h5>
+			</div>
+					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
+						<div class="u-gridCol3">
+							<?php dynamic_sidebar( 'footer-widgets' ); ?>
+						</div>
+						<?php endif; ?>
 			</p>
 		</div>
 	</div>

@@ -1,12 +1,79 @@
+//melles code--------------
+.actie-box-edit{
+	background-image: url("../img/actie-rolluiken-bg.png");
+	height:347px;
+	position:relative;
+	background-size:cover;
+	margin-bottom:20px;
+}
+.actie-box-edit-bovenbalk{
+	background:rgba(255, 132, 12, 0.9);
+	width:100%;
+	height:50px;
+
+	h5{
+		color:white;
+		text-align: center;
+		line-height: 2.5;
+	}
+	a{
+		color:white;
+	}
+}
+.actie-box-edit-korting{
+	img{
+		position:absolute;
+		bottom:20px;
+		left:30px;
+	}
+	h2{
+		position: absolute;
+		bottom: 0px;
+		left: 45px;
+		color:white;
+		font-size: 3.5rem;
+	}
+}
+.actie-ul{
+	position: absolute;
+	bottom: 0px;
+	right: 45px;
+	color:white;
+	
+	ul{
+	list-style-type: disc;	
+	}
+}
+.actie-home{
+	height:220px;
+	max-width:119%;
+	width:543px;
+}
+
+.acties:nth-of-type(odd){
+		margin-right: 20px;
+	}
+.acties:nth-of-type(even){
+	margin-right: 0px !important;
+}
+.welkom-text-area-correct{
+	width:1040px;
+	background: #fe8408;
+	margin-top:5px;
+}
+
+//einde melles code----------------
 .Content {
 
 }
-
+p{
+	padding:10px;
+}
 
 .welkom-text-area{
 	background: #fe8408;
 	margin-top: 10px;
-	width: 100%;
+	width: 99%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -27,12 +94,12 @@
 	display: inline-block;
 	width: 100%;
 	padding-bottom: 20px;
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .thumb-webshop-bottom{
-	margin-top: 10px;
+	//margin-top: 10px;
 }
 
 .thumb-webshop, .thumb-webshop-bottom{
@@ -76,6 +143,7 @@
 	color: #ffffff;
 	padding-left: 20px;
 	font-size: 26px;
+	width: 1040px !important;
 }
 
 .onderhoud-titel{
@@ -97,6 +165,7 @@
 
 .content-home-space{
 	margin-top: 10px;
+	margin-right: 3px;
 }
 
 .actie-box{
@@ -196,8 +265,20 @@
 .img-right img{
 	float: right;
 }
-
-
+@media all and (max-width: 1100px) {
+.welkom-text-area-correct{
+	width:100%;
+}
+.Navigation{
+	width:98%;
+}
+.bx-viewport{
+	width:100% !important;
+}
+.website-titel{
+	width:100% !important;
+}
+}
 @media all and (max-width: 700px) {
   .assort-area{
 		margin-top: 25px;
@@ -226,5 +307,10 @@
   .welkom-text{
   	font-size:14px;
   }
+  .actie-home{
+	height:220px;
+	max-width:100%;
+	width:543px;
+}
 }
 
