@@ -6,6 +6,8 @@
                 <li><a href="/st-tropez-knikarmzonnescherm">St Tropez</a></li>
                 <li><a href="/ipanema-knikarmzonnescherm">Ipenema</a></li>
                 <li><a href="/alicante">Alicante</a></li>
+                <li><a href="/salou">Salou</a></li>
+                <li><a href="/rhodos">Rhodos</a></li>
             </ul>
         </li>
 
@@ -76,9 +78,13 @@
             </ul>
         </li>     
 
-        <li><a href="/horen-en-hordeuren">HORREN EN HORDEUREN</a></li>      
-
-        <li><a href="#">BINNENZONWERING</a>
+        <li><a href="/horen-en-hordeuren">HORREN EN HORDEUREN</a>
+            <ul class="sub-level">
+                <li><a href="http://www.uniluxhorren.nl/producten/voor-ramen/?dealer=wullems-zonwering">Bestel online</a></li>      
+            </ul>
+        </li>
+        
+        <li><a href="/binnenzonwering">BINNENZONWERING</a>
             <ul class="sub-level">
                 <li><a href="/rolgordijnen">Rolgordijnen</a></li>
                 <li><a href="/duo-rolgordijnen">Duo rolgordijnen</a></li>
@@ -94,7 +100,7 @@
             </ul>
         </li>   
 
-        <li><a href="#">BUITENLEVEN</a>
+        <li><a href="/buitenleven">BUITENLEVEN</a>
             <ul class="sub-level">
                 <li><a href="/cortona-terrasscherm">Cortona terasscherm</a></li>
                 <li><a href="/lucca-terrasscherm">Lucca terrasscherm</a></li>

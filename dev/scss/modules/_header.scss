@@ -11,7 +11,7 @@
 }
 
 .header-area{
-  height: 150px;
+  height: 169px;
   background: #ffffff;
 }
 
@@ -25,7 +25,8 @@
 
 .logo-header{
   margin-left: 10px;
-}
+
+} 
 
 .header-imgTel, .header-imgEmail{
   margin: 0;
@@ -33,12 +34,13 @@
   vertical-align: middle;
   width: 31px;
   height: 31px;
+  margin-bottom: 4px;
 }
 
 .header-textTel, .header-textEmail{
-  margin: 0;
+  margin-right: 10px;
   display: inline;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
   font-weight: 600;
   vertical-align: middle;
@@ -47,7 +49,12 @@
 .Header-telefoon{
   float: right;
   margin-right: 10px; 
+  a {
+    float: right;
+  }
 }
+
+
 
 .Header-email {
   float: right;

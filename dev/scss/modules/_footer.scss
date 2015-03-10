@@ -20,6 +20,10 @@
 .Footer-inner {
 }
 
+.sitemap{
+	display: none;
+}
+
 //style the widgets
 .Footer-inner .widget {
 
@@ -36,6 +40,7 @@
 
 .contact-space{
 	line-height: 30px;
+	margin-top: -22px;
 }
 
 .footer-bg h4{
@@ -72,4 +77,9 @@
   	text-align: center;
   }
 
+}
+
+.footerhome{
+	margin-left: -14px;
+	margin-right:	-14px;
 }

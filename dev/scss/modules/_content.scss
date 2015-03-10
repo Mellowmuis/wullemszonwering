@@ -19,7 +19,28 @@
 	a{
 		color:white;
 	}
+}  
+
+.bestelplaatje{
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
+
+.bestelplaatjelinks{
+	img{
+		float: left;
+	}
+}
+
+.bestelplaatjerechts{
+	img{
+		float: right;
+	}
+}
+
 .actie-box-edit-korting{
 	img{
 		position:absolute;
@@ -57,9 +78,8 @@
 	margin-right: 0px !important;
 }
 .welkom-text-area-correct{
-	width:1040px;
+	width:100.1%;
 	background: #fe8408;
-	margin-top:5px;
 }
 
 //einde melles code----------------
@@ -67,7 +87,8 @@
 
 }
 p{
-	padding:10px;
+	padding:0px;
+
 }
 
 .welkom-text-area{
@@ -94,8 +115,6 @@ p{
 	display: inline-block;
 	width: 100%;
 	padding-bottom: 20px;
-	padding-right: 10px;
-	padding-left: 10px;
 }
 
 .thumb-webshop-bottom{
@@ -141,14 +160,17 @@ p{
 .website-titel{
 	background: rgb(255, 126, 0);
 	color: #ffffff;
-	padding-left: 20px;
+	padding-left: 25px;
 	font-size: 26px;
-	width: 1040px !important;
+	margin-top: 0px;
 }
 
 .onderhoud-titel{
 	font-weight: 600;
 	font-size: 18px;
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .space-onderhoud{
@@ -166,6 +188,16 @@ p{
 .content-home-space{
 	margin-top: 10px;
 	margin-right: 3px;
+}
+
+.paginainhoud {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.paginainhoudcontact {
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .actie-box{
@@ -213,6 +245,8 @@ p{
 .button-area{
 	text-align: right;
 	margin-top: 40px;
+	float: right;
+	margin-right: 5px;
 }
 
 .button-area a{
@@ -222,9 +256,23 @@ p{
 	border-radius: 3px;
 }
 
+.button-area1{
+	text-align: left;
+	margin-top: 40px;
+	float: left;
+	margin-right: 20px;
+}
+
+.button-area1 a{
+    @include background-image(linear-gradient(to top, #DA6D00, #FF8408));
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+}
+
 .assort-thumb{
 	width:100%;
-	height: 150px;
+	height: 150px;         
 }
 
 .assort-link-master{
@@ -270,7 +318,7 @@ p{
 	width:100%;
 }
 .Navigation{
-	width:98%;
+	width:100%;
 }
 .bx-viewport{
 	width:100% !important;
@@ -313,4 +361,69 @@ p{
 	width:543px;
 }
 }
+
+.advertisement-home{
+	float: left;
+	img{
+		max-width: 96%;
+		margin-bottom: 35px;
+
+	}
+}
+
+.titel_tekst{
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.advertisement {
+	float: left;
+}
+.advertisement-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	h5{
+		color: #ff7e00;
+	}
+}
+
+.homeadvertentie{
+	width: 73%;
+}
+
+.acties-foto{
+	img{
+		float:right;
+		margin-top: 7px;
+	}
+}
+
+.actie-text{
+	p{
+	margin-bottom:4px;
+	margin-top:4px;
+	}
+}
+
+.actie-space{
+	margin-top:20px;
+}
+
+.afbeeldingactie{
+	margin-top:20px;
+	margin-left: 160px;
+	img{
+		margin-left: 10px;
+
+	}
+}
+
+.actiefoto{
+	img{
+	float:right;
+	margin-top: 9px;
+	}
+}
+
+
 

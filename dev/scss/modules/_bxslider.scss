@@ -13,6 +13,9 @@
 
 /** RESET AND LAYOUT
 ===================================*/
+.slide {
+	width: 100%;
+}
 
 .Slider {
 	visibility: hidden;
@@ -23,6 +26,7 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
+	max-width: 100%;
 }
 
 .bx-wrapper img {
@@ -207,10 +211,14 @@
 	padding: 10px;
 }
 .bx-viewport{
-	width:1040px !important;
+	width:100% !important;
 }
 @media all and (max-width: 1100px) {
 	.bx-viewport{
 		width:100% !important;
 	}
+}
+
+.border-img{
+		width:100%;
 }

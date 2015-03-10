@@ -32,7 +32,6 @@ p {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: $t-headerFontFamily;
-  font-weight: bold;
 }
 
 h1, %u-textH1 {
@@ -53,6 +52,7 @@ h4, %u-textH4 {
 
 h5, %u-textH5 {
   font-size: rem(20px);
+  color: #ff7e00;
 }
 
 h6, %u-textH6 {

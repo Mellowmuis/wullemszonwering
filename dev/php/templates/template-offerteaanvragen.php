@@ -12,9 +12,9 @@ Template Name: Offerte aanvragen
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<article class="Content" id="post-<?php the_ID(); ?>">
 					<h2 class="website-titel"><?php the_title(); ?></h2>
-
-         			<?php echo do_shortcode('[gravityform id=2 name=ContactUs title=false description=false]'); ?>
-				
+					<div class="paginainhoud">
+         				<?php echo do_shortcode('[gravityform id=2 name=ContactUs title=false description=false]'); ?>
+					</div>
 				</article>
 			<?php endwhile; endif; ?>
 			</div>

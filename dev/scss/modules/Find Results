@@ -1,0 +1,149 @@
+Searching 7544 files for "button-area"
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-acties.php:
+   48  						
+   49  
+   50: 					<div class="u-gridRow button-area">
+   51  						<a href="#">overzicht assortiment</a>
+   52  					</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-assortiment-binnenzonwering.php:
+   86  							</div>
+   87  						</div>
+   88: 						<div class="u-gridRow button-area">
+   89  							<a href="/assortiment">overzicht assortiment</a>
+   90  						</div>	
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-assortiment-buitenleven.php:
+   77  							</div>
+   78  						</div>
+   79: 						<div class="u-gridRow button-area">
+   80  							<a href="/assortiment">overzicht assortiment</a>
+   81  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-onderhoud.php:
+   51  							</div>	
+   52  
+   53: 							<div class="u-gridRow button-area">
+   54  								<a href="/assortiment">overzicht assortiment</a>
+   55  							</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-product.php:
+   54  
+   55  						<?php for($i = 1; $i <= 8; $i++) { ?>	
+   56: 							<div class="brochure button-area1">
+   57  								<?php 
+   58  									$brochure = get_field('brochure'.$i);
+   ..
+   67  
+   68  
+   69: 						<div class="u-gridRow button-area">
+   70  							<a href="/assortiment">overzicht assortiment</a>
+   71  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-productiframe.php:
+   18  					</div>
+   19  
+   20: 					<div class="u-gridRow button-area">
+   21  						<a href="/assortiment">overzicht assortiment</a>
+   22  					</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/php/templates/template-producttype2.php:
+   92  
+   93  						
+   94: 						<div class="u-gridRow button-area">
+   95  							<a href="/assortiment">overzicht assortiment</a>
+   96  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dev/scss/modules/_content.scss:
+  222  }
+  223  
+  224: .button-area{
+  225  	text-align: right;
+  226  	margin-top: 40px;
+  227  }
+  228  
+  229: .button-area a{
+  230      @include background-image(linear-gradient(to top, #3f3f3f, #838383));
+  231  	color: white;
+  ...
+  308    }
+  309  
+  310:   .button-area{
+  311    	text-align: center;
+  312    }
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-acties.php:
+   48  						
+   49  
+   50: 					<div class="u-gridRow button-area">
+   51  						<a href="#">overzicht assortiment</a>
+   52  					</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-assortiment-binnenzonwering.php:
+   86  							</div>
+   87  						</div>
+   88: 						<div class="u-gridRow button-area">
+   89  							<a href="/assortiment">overzicht assortiment</a>
+   90  						</div>	
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-assortiment-buitenleven.php:
+   77  							</div>
+   78  						</div>
+   79: 						<div class="u-gridRow button-area">
+   80  							<a href="/assortiment">overzicht assortiment</a>
+   81  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-onderhoud.php:
+   51  							</div>	
+   52  
+   53: 							<div class="u-gridRow button-area">
+   54  								<a href="/assortiment">overzicht assortiment</a>
+   55  							</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-product.php:
+   54  
+   55  						<?php for($i = 1; $i <= 8; $i++) { ?>	
+   56: 							<div class="brochure button-area">
+   57  								<?php 
+   58  									$brochure = get_field('brochure'.$i);
+   ..
+   67  
+   68  
+   69: 						<div class="u-gridRow button-area">
+   70  							<a href="/assortiment">overzicht assortiment</a>
+   71  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-productiframe.php:
+   18  					</div>
+   19  
+   20: 					<div class="u-gridRow button-area">
+   21  						<a href="/assortiment">overzicht assortiment</a>
+   22  					</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/template-producttype2.php:
+   92  
+   93  						
+   94: 						<div class="u-gridRow button-area">
+   95  							<a href="/assortiment">overzicht assortiment</a>
+   96  						</div>
+
+/Users/justinhundman/Desktop/LokaalGevonden/Websites/wullemszonwering/dist/child/css/production.css:
+ 1507  }
+ 1508  
+ 1509: .button-area {
+ 1510    text-align: right;
+ 1511    margin-top: 40px;
+ 1512  }
+ 1513  
+ 1514: .button-area a {
+ 1515    background-image: linear-gradient(to top, #3f3f3f, #838383);
+ 1516    color: white;
+ ....
+ 1597    }
+ 1598  
+ 1599:   .button-area {
+ 1600      text-align: center;
+ 1601    }
+
+22 matches across 16 files

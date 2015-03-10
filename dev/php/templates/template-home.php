@@ -50,29 +50,42 @@ Template Name: Homepage
 				<?php include_once('sidebar-menu.php'); ?>	
 
 			</div>
-			<div class="u-gridCol8">
-				<div class="u-gridRow">
-					<div class="u-gridCol4">
-
-						<div class="thumb-webshop-bottom">
-							<div class="thumb-content">
-								<a target="_blank" href="http://www.wullemswebshop.nl/Home.html">WEBSHOP BUITENZONWERING</a>
-							</div>
-							<img src="<?php echo get_stylesheet_directory_uri();?>/img/buitenzonwering.png">
-						</div>
-
-					</div>
+			<div class="u-gridCol9 homeadvertentie">
+				
+			
 
 
-					<div class="u-gridCol8">
-						<img class="actie-home" src="<?php echo get_stylesheet_directory_uri();?>/img/rolluikenactie.jpg">
-						
-					</div>
-				</div>
-				<div class="u-gridRow">
-					<img class="aanbiedingen-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/aanbiedingen.gif">
-				</div>
-			</div>
+
+
+
+	<?php $loop = new WP_Query( array( 'post_type' => 'actiehome', 'posts_per_page' => 999 ) ); ?>
+
+							<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+								<?php
+									$plaatje = get_field('advertentie plaatje');
+									$src = $plaatje['url'];
+								?>
+
+								<div class="advertisement-home">
+									<a href="<?php echo get_field('link'); ?>" target="_blank">
+										<img src="<?php echo $src; ?>" />
+									</a>
+								</div>
+
+
+
+							<?php endwhile; ?>
+
+
+
+
+
+
+
+
+
+
+			
 		</div>
 		
 
@@ -87,5 +100,6 @@ Template Name: Homepage
 	<?php endwhile; endif; ?>-->
 	</div>
 </div>
-
-<?php get_footer(); ?>
+<div class="footerhome">
+	<?php get_footer(); ?>
+</div>

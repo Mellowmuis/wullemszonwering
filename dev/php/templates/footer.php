@@ -1,7 +1,7 @@
 	<div class="Footer">
 		<div class="u-gridContainer">
 				<div class="u-gridRow footer-bg">
-					<div class="u-gridCol3 footer-contact">
+					<div class="u-gridCol4 footer-contact">
 						<h4>Contact</h4>
 						<p class="contact-space">
 							Wullems Zonwering</br>
@@ -11,7 +11,7 @@
 						</p>
 					</div>
 
-					<div class="u-gridCol3">
+					<div class="u-gridCol4">
 						<h4>Openingstijden</h4>
 						<p class="contact-space">
 							Maandag gesloten</br>
@@ -21,17 +21,11 @@
 						</p>
 					</div>
 					
-					<div class="u-gridCol3">
+					<div class="u-gridCol4">
 						<h4>Gegevens</h4>
 						<p class="contact-space">
-							ABN-Amro IBAN:  NL91ABNA0612027503</br>
-							KVK: 51932334</br>
-							BTW: NL127159447B02</br>
+							ABN-Amro IBAN: NL91ABNA0612027503</br>
 						</p>
-					</div>
-
-					<div class="u-gridCol3">
-						
 					</div>
 				</div>
 		</div>
@@ -45,15 +39,15 @@
 				<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 				<a href="http://www.lokaalgevonden.nl" target="_blank">Lokaal<span class="orange-text">Gevonden</span></a>
 			</div>
-			<div class="u-gridCol2">
+			<div class="u-gridCol2 sitemap">
 				<h5>Sitemap:</h5>
-			</div>
 					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 						<div class="u-gridCol3">
 							<?php dynamic_sidebar( 'footer-widgets' ); ?>
 						</div>
 						<?php endif; ?>
 			</p>
+			</div>
 		</div>
 	</div>
 

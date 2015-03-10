@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.css">
     <!-- /build -->
     
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400,800' rel='stylesheet' type='text/css'>
     
     <!-- build:remove:compressed -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
@@ -54,15 +54,17 @@
                 <div class="info-area u-gridCol6">
                     <div class="Header-telefoon">
                         <a href="tel:0115 630299">
-                            <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/telefoon.svg"> 
                             <h4 class="header-textTel">0115 630299</h4>
+                            <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/telefoon.svg"> 
+                        </a>
+                        <br>
+                        <a href="mailto:info@wullemszonwering.nl">
+                           <h4 class="header-textEmail">info@wullemszonwering.nl</h4>
+                            <img class="header-imgEmail" src="<?php echo get_stylesheet_directory_uri(); ?>/img/email.svg"> 
                         </a>
                     </div>
                     <div class="Header-email">
-                        <a href="mailto:info@wullemszonwering.nl">
-                            <img class="header-imgEmail" src="<?php echo get_stylesheet_directory_uri(); ?>/img/email.svg"> 
-                            <h4 class="header-textEmail">info@wullemszonwering.nl</h4>
-                        </a>
+                        
                     </div> 
                 </div>
             </div>
